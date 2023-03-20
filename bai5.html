@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="star()">
+<script>
+    function star() {
+        let input = prompt('nhap ten ngoi sao')
+        let arr1= ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe' , 'Regulus'];
+        let arr2= ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+        if (arr1.indexOf(input)===-1){
+            alert('khong co ngoi sao nay')
+        }else alert(arr2[arr1.indexOf(input)])
+    }
+</script>
+</body>
+</html>
